@@ -1,9 +1,9 @@
 module.exports = {
-  /*
-  ** Headers of the page
-  */
+  css: [
+    'assets/app.css'
+  ],
   head: {
-    title: '2017-christmas-card',
+    title: '2017 Christmas Card',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -13,17 +13,8 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  /*
-  ** Customize the progress bar color
-  */
   loading: { color: '#3B8070' },
-  /*
-  ** Build configuration
-  */
   build: {
-    /*
-    ** Run ESLint on save
-    */
     extend (config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
