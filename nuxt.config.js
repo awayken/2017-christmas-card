@@ -24,6 +24,15 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+      config.module.rules.push({
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: function (modulePath) {
+          return /node_modules/.test(modulePath) &&
+            !/node_modules\/no-ssr/.test(modulePath)
+        },
+        options: Object.assign({}, this.babelOptions)
+      })
     }
   }
 }
