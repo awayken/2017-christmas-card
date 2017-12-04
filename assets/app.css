@@ -1,7 +1,9 @@
-.page-enter-active, .page-leave-active {
-  transition: opacity .5s;
+html,
+body {
+  background: #000;
+  color: #fff;
 }
 
-.page-enter, .page-leave-to {
-  opacity: 0;
+body a {
+  color: currentColor;
 }
