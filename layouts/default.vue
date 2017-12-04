@@ -2,7 +2,9 @@
   <article>
     <Navigation />
 
-    <nuxt />
+    <main class="main">
+      <nuxt />
+    </main>
 
     <Footer />
   </article>

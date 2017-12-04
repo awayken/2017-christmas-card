@@ -5,9 +5,7 @@
   </nav>
 </template>
 
-
-
-<style scoped>
+<style>
   nav {
     display: flex;
     justify-content: space-between;

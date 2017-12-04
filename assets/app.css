@@ -7,3 +7,7 @@ body {
 body a {
   color: currentColor;
 }
+
+.main {
+  padding: 2rem 0;
+}

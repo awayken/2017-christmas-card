@@ -1,17 +1,5 @@
 <template>
-  <section class="container">
-
+  <section>
+    Welcome to the homepage.
   </section>
 </template>
-
-<script>
-  export default {
-    // layout: 'home',
-    components: {
-    }
-  }
-</script>
-
-<style>
-
-</style>
