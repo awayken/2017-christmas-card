@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="container">
     <small>&copy; {{ year }} Miles &amp; Holli Rausch</small>
   </footer>
 </template>

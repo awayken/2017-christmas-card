@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="container">
     <a href="/" class="back">Back</a>
     <a href="/">Start Over</a>
   </nav>
