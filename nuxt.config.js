@@ -1,6 +1,6 @@
 module.exports = {
   css: [
-    'assets/app.css'
+    '~/assets/app.css'
   ],
   head: {
     title: '2017 Christmas Card',
