@@ -1,6 +1,6 @@
 :root {
-  --color-primary: #2f5261;
-  --color-accent: #f07100;
+  --color-primary: #fa6c22;
+  --color-accent: #fefdce;
   --color-space: #0f0b0e;
   --color-stars: #ebd088;
 }
@@ -32,18 +32,10 @@ main {
   font-family: Impact;
   font-weight: normal;
   font-size: 1.5em;
-  text-shadow: 1px -1px var(--color-accent),
-    1px 0 var(--color-accent),
-    1px 1px var(--color-accent),
-    1px 2px var(--color-accent),
-    1px 3px var(--color-accent),
-    1px 4px var(--color-accent),
-    -1px -1px var(--color-accent),
-    -2px 0 var(--color-accent),
-    -3px 1px var(--color-accent),
-    -4px 2px var(--color-accent),
-    -5px 3px var(--color-accent),
-    -6px 4px var(--color-accent);
+  text-shadow: 0 1px var(--color-accent),
+    -1px 2px var(--color-accent),
+    -2px 3px var(--color-accent),
+    -3px 4px var(--color-accent);
   text-transform: uppercase;
   vertical-align: baseline;
 }
