@@ -6,18 +6,18 @@
       <nuxt />
     </main>
 
-    <Footer />
+    <Bottom />
   </article>
 </template>
 
 <script>
   import Navigation from '~/components/Navigation'
-  import Footer from '~/components/Footer'
+  import Bottom from '~/components/Bottom'
 
   export default {
     components: {
       Navigation,
-      Footer
+      Bottom
     }
   }
 </script>
