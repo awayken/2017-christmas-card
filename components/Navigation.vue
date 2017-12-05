@@ -1,6 +1,6 @@
 <template>
   <nav class="container">
-    <a href="/" class="back">Back</a>
+    <nuxt-link to="/" class="back">Back</nuxt-link>
     <a href="/">Start Over</a>
   </nav>
 </template>
