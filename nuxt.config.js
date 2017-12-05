@@ -15,6 +15,11 @@ module.exports = {
   },
   loading: { color: '#3B8070' },
   build: {
+    postcss: [
+      require('postcss-import')(),
+      require('postcss-cssnext')(),
+      require('cssnano')()
+    ],
     extend (config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
