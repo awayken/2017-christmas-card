@@ -1,60 +1,26 @@
 <template>
   <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        2017-christmas-card
-      </h1>
-      <h2 class="subtitle">
-        2017 Christmas Card
-      </h2>
-      <div class="links">
-        <a href="/page1" class="button--grey">Page 1</a>
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
-    </div>
+    <h1 class="pulp">Escape <small>from the</small> Maze Planet</h1>
+
+    <p><span class="pulp">Welcome</span> to the homepage.</p>
+
+    <p>Filler copy to get a sense of good page width. Also gathered around the table were the other department heads: Head of Design, Clint Burnett, CTO, Ravi Kumar, CEO, Levi Havers, and the only other woman, Director of Human Resources, Irene Heller. There was another man at the end of the room. His back was to Valerie as he made himself coffee. She didn’t seem to recognize him. Like the other men in the room, save Blake, this man looked young. He was likely in his late twenties or early thirties, whereas Blake was in his mid-forties. The mystery man wore a very dark suit, maybe Italian-made, obviously tailored to his build. His hair was styled into an exacting mess of pitch black. Everyone in the room was angled toward him.</p>
   </section>
 </template>
 
-<script>
-  import Logo from '~/components/Logo.vue'
-
-  export default {
-    layout: 'home',
-    components: {
-      Logo
-    }
-  }
-</script>
-
-<style>
-  .container {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+<style scoped>
+  h1 {
+    display: block;
+    font-size: 3rem;
     text-align: center;
   }
 
-  .title {
-    font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-    display: block;
-    font-weight: 300;
-    font-size: 100px;
-    color: #35495e;
-    letter-spacing: 1px;
-  }
-
-  .subtitle {
-    font-weight: 300;
-    font-size: 42px;
-    color: #526488;
-    word-spacing: 5px;
-    padding-bottom: 15px;
-  }
-
-  .links {
-    padding-top: 15px;
+  h1 small {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    text-align: center;
+    vertical-align: middle;
+    width: 3em;
   }
 </style>
