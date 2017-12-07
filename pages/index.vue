@@ -10,28 +10,16 @@
 
     <p>You are P. Ditty, a dat (half dog, half cat) creature that the Miles Rausch Family picked up on one of their space adventures. Are you young or old? Choosing the right P. Ditty will make the story easier to read.</p>
 
-    <button @click="$store.commit('setDatAge', 'old')">Old P. Ditty</button>
-    <button @click="$store.commit('setDatAge', 'young')">Young P. Ditty</button>
-
-    <div class="story__choices">
-      <nuxt-link to="/page1" class="story__choice">
+    <nav class="story__choices">
+      <nuxt-link to="/landing-on-skoor" class="story__choice">
         <span @click="$store.commit('setDatAge', 'old')">Old P. Ditty</span>
       </nuxt-link>
-      <nuxt-link to="/page1" class="story__choice">
+      <nuxt-link to="/landing-on-skoor" class="story__choice">
         <span @click="$store.commit('setDatAge', 'young')">Young P. Ditty</span>
       </nuxt-link>
-    </div>
+    </nav>
   </section>
 </template>
-
-<script>
-export default {
-  methods: {
-
-  }
-}
-</script>
-
 
 <style scoped>
   h1 {
@@ -47,5 +35,10 @@ export default {
     text-align: center;
     vertical-align: middle;
     width: 3em;
+  }
+
+  .story__choices {
+    display: flex;
+    justify-content: space-around;
   }
 </style>
