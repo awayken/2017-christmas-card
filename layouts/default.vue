@@ -1,5 +1,7 @@
 <template>
   <article>
+    <p>Current P. Ditty: {{ $store.state.datAge }}</p>
+
     <Navigation />
 
     <main class="main">
