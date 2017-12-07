@@ -14,15 +14,24 @@
     <button @click="$store.commit('setDatAge', 'young')">Young P. Ditty</button>
 
     <div class="story__choices">
-      <nuxt-link to="/page1" class="story__choice" @click="$store.commit('setDatAge', 'old')">
-        Old P. Ditty
+      <nuxt-link to="/page1" class="story__choice">
+        <span @click="$store.commit('setDatAge', 'old')">Old P. Ditty</span>
       </nuxt-link>
-      <nuxt-link to="/page1" class="story__choice" @click="$store.commit('setDatAge', 'young')">
-        Young P. Ditty
+      <nuxt-link to="/page1" class="story__choice">
+        <span @click="$store.commit('setDatAge', 'young')">Young P. Ditty</span>
       </nuxt-link>
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  methods: {
+
+  }
+}
+</script>
+
 
 <style scoped>
   h1 {
