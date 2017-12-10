@@ -3,11 +3,11 @@ import Vuex from 'vuex'
 const createStore = () => {
   return new Vuex.Store({
     state: {
-      datAge: 'young'
+      readingLevel: 'young'
     },
     mutations: {
-      setDatAge (state, datAge) {
-        state.datAge = datAge
+      setReadingLevel (state, newReadingLevel) {
+        state.readingLevel = newReadingLevel
       }
     }
   })
