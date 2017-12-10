@@ -6,20 +6,30 @@
 
     <p>The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story. Young or old, choose your own adventure with Kiddo &amp; Sweets. Learn more about our 2017 as you try to escape the maze planet, Skoor!</p>
 
-    <h2 class="pulp">Choose Your Reading Level</h2>
+    <Chooser title="Choose Your Reading Level">
+      <p>You are the family pet, Fruckles (a half Shar Pei, half cheetah creature) that the Kiddo &amp; Sweets picked up on one of their many space adventures. Are you young or old? Choosing the right reading level will make the story easier to follow.</p>
 
-    <p>You are the family pet, Fruckles (a half Shar Pei, half cheetah creature) that the Kiddo &amp; Sweets picked up on one of their many space adventures. Are you young or old? Choosing the right reading level will make the story easier to follow.</p>
-
-    <nav class="story__choices">
-      <nuxt-link to="/landing-on-skoor" class="story__choice">
-        <span @click="$store.commit('setReadingLevel', 'old')">Old Fruckles</span>
-      </nuxt-link>
-      <nuxt-link to="/landing-on-skoor" class="story__choice">
-        <span @click="$store.commit('setReadingLevel', 'young')">Young Fruckles</span>
-      </nuxt-link>
-    </nav>
+      <nav slot="choices" class="chooser__choices">
+        <nuxt-link to="/landing-on-skoor" class="chooser__choice">
+          <span @click="$store.commit('setReadingLevel', 'old')">Old Fruckles</span>
+        </nuxt-link>
+        <nuxt-link to="/landing-on-skoor" class="chooser__choice">
+          <span @click="$store.commit('setReadingLevel', 'young')">Young Fruckles</span>
+        </nuxt-link>
+      </nav>
+    </Chooser>
   </section>
 </template>
+
+<script>
+  import Chooser from '~/components/Chooser.vue'
+
+  export default {
+    components: {
+      Chooser
+    }
+  }
+</script>
 
 <style scoped>
   h1 {
@@ -35,10 +45,5 @@
     text-align: center;
     vertical-align: middle;
     width: 3em;
-  }
-
-  .story__choices {
-    display: flex;
-    justify-content: space-around;
   }
 </style>
