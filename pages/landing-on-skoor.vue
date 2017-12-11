@@ -12,9 +12,13 @@
       <p>Just then, the telecommunicator crackled to life. "Welcome to Skoor, New Visitor! You are the three millioneth, four hundred and fifty-sixth, seven hundred and eighty-nineth visitor today! You and every humanoid aboard have won a free entry to the Maze Competition taking place right now! Can you escape the maze planet? You'll soon find out!"<p>
       <p>Dad and Kiddo and Sweets all turned to each other with big, beaming smiles. Mom shook her head and tapped some keys on the dashboard console. The ship began its descent.</p>
 
-      <nav slot="choices">
-        <a href="/welcome-to-skoor">Continue to the Maze Planet</a>
-      </nav>
+      <Chooser title="Choose Your Path">
+        <nav slot="choices">
+          <nuxt-link to="/landing-on-skoor" class="chooser__choice">
+            <span class="chooser__choice-target">Continue to the Maze Planet</span>
+          </nuxt-link>
+        </nav>
+      </Chooser>
     </story>
 
     <story v-if="$store.state.readingLevel === 'young'" title="Landing on Skoor">
@@ -23,19 +27,25 @@
       <p>The people who live on the Maze Planet say that Kiddo and Sweets have won a prize. They get to explore the giant maze.</p>
       <p>Dad and Kiddo and Sweets are excited to go to the Maze Planet.</p>
 
-      <nav slot="choices" class="story__choices">
-        <a href="/welcome-to-skoor">Continue to the Maze Planet</a>
-      </nav>
+      <Chooser title="Choose Your Path">
+        <nav slot="choices" class="story__choices">
+          <nuxt-link to="/landing-on-skoor" class="chooser__choice">
+            <span class="chooser__choice-target">Continue to the Maze Planet</span>
+          </nuxt-link>
+        </nav>
+      </Chooser>
     </story>
   </section>
 </template>
 
 <script>
   import Story from '~/components/Story.vue'
+  import Chooser from '~/components/Chooser.vue'
 
   export default {
     components: {
-      Story
+      Story,
+      Chooser
     }
   }
 </script>
