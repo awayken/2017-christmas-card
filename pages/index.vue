@@ -11,10 +11,16 @@
 
       <nav slot="choices" class="chooser__choices">
         <nuxt-link to="/landing-on-skoor" class="chooser__choice">
-          <span @click="$store.commit('setReadingLevel', 'old')">Old Fruckles</span>
+          <span @click="$store.commit('setReadingLevel', 'old')">
+            Old Fruckles
+            <span class="chooser__choice-target">Choose This One</span>
+          </span>
         </nuxt-link>
         <nuxt-link to="/landing-on-skoor" class="chooser__choice">
-          <span @click="$store.commit('setReadingLevel', 'young')">Young Fruckles</span>
+          <span @click="$store.commit('setReadingLevel', 'young')">
+            Young Fruckles
+            <span class="chooser__choice-target">Choose This One</span>
+          </span>
         </nuxt-link>
       </nav>
     </Chooser>

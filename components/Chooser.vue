@@ -30,10 +30,25 @@
 
   .chooser__choices {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
   }
 
   .chooser__choice {
-    border: 1px solid blue;
+    background: #fefdce;
+    box-shadow: 0 1px #fa6c22,
+      -1px 2px #fa6c22,
+      -2px 3px #fa6c22,
+      -3px 4px #fa6c22;
+    color: #0f0b0e;
+    margin: 5px 5px 10px 5px;
+    max-width: calc(50% - 10px);
+    padding: .25em;
+    text-decoration: none;
+  }
+
+  .chooser__choice-target {
+    display: block;
+    text-decoration: underline;
   }
 </style>
