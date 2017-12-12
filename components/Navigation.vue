@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div class="container">
-      <nuxt-link to="/" class="back">Back</nuxt-link>
+      <a href="#back" @click.prevent="goBack()" class="back">Back</a>
       <ReadingLevelToggle :currentLevel="$store.state.readingLevel" :readingLevels="$store.state.readingLevels" />
     </div>
   </nav>
@@ -11,6 +11,13 @@
   import ReadingLevelToggle from '~/components/ReadingLevelToggle.vue'
 
   export default {
+    methods: {
+      goBack () {
+        window.history.length > 1
+          ? this.$router.go(-1)
+          : this.$router.push('/')
+      }
+    },
     components: {
       ReadingLevelToggle
     }
