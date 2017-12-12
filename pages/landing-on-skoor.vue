@@ -13,7 +13,7 @@
       <p>Dad and Kiddo and Sweets all turned to each other with big, beaming smiles. Mom shook her head and tapped some keys on the dashboard console. The ship began its descent.</p>
 
       <Chooser title="Choose Your Path">
-        <nav slot="choices">
+        <nav slot="choices" class="chooser__choices">
           <nuxt-link to="/landing-on-skoor" class="chooser__choice">
             <span class="chooser__choice-target">Continue to the Maze Planet</span>
           </nuxt-link>
@@ -28,7 +28,7 @@
       <p>Dad and Kiddo and Sweets are excited to go to the Maze Planet.</p>
 
       <Chooser title="Choose Your Path">
-        <nav slot="choices" class="story__choices">
+        <nav slot="choices" class="chooser__choices">
           <nuxt-link to="/landing-on-skoor" class="chooser__choice">
             <span class="chooser__choice-target">Continue to the Maze Planet</span>
           </nuxt-link>
