@@ -31,6 +31,7 @@
   import Chooser from '~/components/Chooser.vue'
 
   export default {
+    layout: 'home',
     components: {
       Chooser
     }
