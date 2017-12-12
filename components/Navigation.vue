@@ -1,7 +1,9 @@
 <template>
-  <nav class="container">
-    <nuxt-link to="/" class="back">Back</nuxt-link>
-    <ReadingLevelToggle :currentLevel="$store.state.readingLevel" :readingLevels="$store.state.readingLevels" />
+  <nav>
+    <div class="container">
+      <nuxt-link to="/" class="back">Back</nuxt-link>
+      <ReadingLevelToggle :currentLevel="$store.state.readingLevel" :readingLevels="$store.state.readingLevels" />
+    </div>
   </nav>
 </template>
 
@@ -15,12 +17,17 @@
   }
 </script>
 
-<style>
+<style scoped>
   nav {
+    background: #276f3f;
+    line-height: 1.5;
+    padding: .5em 0;
+  }
+
+  .container {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 4px 0;
   }
 
   .back::before {
