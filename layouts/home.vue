@@ -1,7 +1,19 @@
 <template>
   <article>
-    <h1>Home!</h1>
+    <main class="main">
+      <nuxt />
+    </main>
 
-    <nuxt />
+    <Bottom />
   </article>
 </template>
+
+<script>
+  import Bottom from '~/components/Bottom'
+
+  export default {
+    components: {
+      Bottom
+    }
+  }
+</script>
