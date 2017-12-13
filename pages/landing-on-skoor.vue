@@ -14,7 +14,7 @@
 
       <Chooser title="Choose Your Path">
         <nav slot="choices" class="chooser__choices">
-          <nuxt-link to="/landing-on-skoor" class="chooser__choice">
+          <nuxt-link to="/welcome-to-skoor" class="chooser__choice">
             <span class="chooser__choice-target">Continue to the Maze Planet</span>
           </nuxt-link>
         </nav>
@@ -29,7 +29,7 @@
 
       <Chooser title="Choose Your Path">
         <nav slot="choices" class="chooser__choices">
-          <nuxt-link to="/landing-on-skoor" class="chooser__choice">
+          <nuxt-link to="/welcome-to-skoor" class="chooser__choice">
             <span class="chooser__choice-target">Continue to the Maze Planet</span>
           </nuxt-link>
         </nav>
