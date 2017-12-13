@@ -1,16 +1,16 @@
 <template>
   <section class="container">
     <story v-if="$store.state.readingLevel === 'old'" title="Landing on Skoor">
-      <p>"We'll just make one tiny pit stop," Dad said as he began the Obisidian's landing sequence. They were orbitting around a bright green planet that shimmered in the light of its sun.</p>
-      <p>"Where are we?" asked Kiddo. He unclipped his harness and hopped out of his seat. He floated to the nearest spaceship porthole.</p>
-      <p>"It's a tourist trap," muttered Mom as she keyed in coordinates and checked safety lights.</p>
-      <p>"It's a <em>famous</em> tourist trap known as Skoor, The Maze Planet. I've always wanted to come here."</p>
-      <p>"What a coincidence that you need a pit stop right now."</p>
-      <p>Sweets looked up from her notepad to see what the fuss was about. The planet was beautiful, wrapped with ribbons in a dozen shades of green. She flipped to a blank page in her notebook and began to furiously sketch and color the vista floating before them.</p>
-      <p>"It's so gorgeous!" she squealed.</p>
-      <p>"Better sketch quickly, sweetie," Dad said. "We begin atmosphere landing procedure in ten minutes."</p>
-      <p>Just then, the telecommunicator crackled to life. "Welcome to Skoor, New Visitor! You are the three millioneth, four hundred and fifty-sixth, seven hundred and eighty-nineth visitor today! You and every humanoid aboard have won a free entry to the Maze Competition taking place right now! Can you escape the maze planet? You'll soon find out!"<p>
-      <p>Dad and Kiddo and Sweets all turned to each other with big, beaming smiles. Mom shook her head and tapped some keys on the dashboard console. The ship began its descent.</p>
+      <p>"We'll just make one tiny pit stop," Dad says as he begins the Obisidian's landing sequence. We were orbitting around a bright green planet that was shimmering in the light of its sun.</p>
+      <p>"Where are we?" asks Kiddo. He unclips his harness and hops out of his seat. He floats to the nearest spaceship porthole.</p>
+      <p>"It's a tourist trap," mutters Mom as she keys in coordinates and checks the safety lights.</p>
+      <p>"It's a <em>famous</em> tourist trap known as Skoor, The Maze Planet. And I've always wanted to come here."</p>
+      <p>"What a coincidence that you need a pit stop right as we enter Skoor's orbit&hellip;"</p>
+      <p>Sweets looks up from her notepad to see what the fuss is about. The planet is beautiful, wrapped with ribbons in a dozen shades of green. She flips to a blank page in her notebook and begins to furiously sketch and color the vista floating before us.</p>
+      <p>"It's so gorgeous!" she squeals.</p>
+      <p>"Better sketch quickly, sweetie," Dad says. "We begin atmosphere landing procedure in ten minutes."</p>
+      <p>The telecommunicator crackles to life. "Welcome to Skoor, New Visitor! You are the three millioneth, four hundred and fifty-sixth, seven hundred and eighty-nineth visitor today! You and every humanoid aboard have won a free entry to the Maze Competition taking place right now! Can you escape the maze planet? You'll soon find out!"<p>
+      <p>Dad and Kiddo and Sweets all turn to each other with big, beaming smiles. Mom shakes her head and taps some keys on the dashboard console. The ship begins its descent.</p>
 
       <Chooser title="Choose Your Path">
         <nav slot="choices" class="chooser__choices">
@@ -25,7 +25,7 @@
       <p>Kiddo and Sweets are space explorers. They visit new planets with Mom and Dad. They love to explore.</p>
       <p>They are going to visit The Maze Planet. It is called Skoor. It looks like a big ball wrapped with green ribbons.</p>
       <p>The people who live on the Maze Planet say that Kiddo and Sweets have won a prize. They get to explore the giant maze.</p>
-      <p>Dad and Kiddo and Sweets are excited to go to the Maze Planet.</p>
+      <p>Dad and Kiddo and Sweets are excited to go to the Maze Planet. Mom is not.</p>
 
       <Chooser title="Choose Your Path">
         <nav slot="choices" class="chooser__choices">
