@@ -7,7 +7,7 @@
       <p>"Um, sure," mutters Mom.</p>
       <p>"Well, you are all about to embark on the adventure of a lifetime. Fruckles will have to choose which group to go with"</p>
       <p>"Why will-"</p>
-      <p>Just then the ground beneath you begins to rumble and shake. President Skoor grabs you and rolls away and onto a platform. The planet throws up giant walls of stone that separate Mom and Kiddo from Dad and Sweets and form an elborate labyrinth around them. The platform rises into the air with the granite walls. You and the President can look down upon the splintered family.</p>
+      <p>The ground beneath you begins to rumble and shake. President Skoor grabs you and rolls away and onto a platform. The planet throws up giant walls of stone that separate Mom and Kiddo from Dad and Sweets and form an elborate labyrinth around them. The platform rises into the air with the granite walls. You and the President can look down upon the splintered family.</p>
       <p>"Choose your group, Fruckles. And let the Maze begin!"</p>
 
       <Chooser title="Choose Your Path">

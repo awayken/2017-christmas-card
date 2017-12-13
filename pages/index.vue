@@ -7,7 +7,7 @@
     <p>The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story. Young or old, choose your own adventure with Kiddo &amp; Sweets. Learn more about our 2017 as you try to escape the maze planet, Skoor!</p>
 
     <Chooser title="Choose Your Reading Level">
-      <p>You are the family pet, Fruckles (a half Shar Pei, half cheetah creature) that the Kiddo &amp; Sweets picked up on one of their many space adventures. Are you young or old? Choosing the right reading level will make the story easier to follow.</p>
+      <p>You are the family pet, Fruckles (a half Shar Pei, half cheetah creature) that the Kiddo &amp; Sweets picked up on one of their many space adventures. Choosing the right reading level will make the story easier to follow.</p>
 
       <nav slot="choices" class="chooser__choices">
         <nuxt-link to="/landing-on-skoor" class="chooser__choice">
