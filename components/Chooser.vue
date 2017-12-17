@@ -19,12 +19,12 @@
 <style>
   .chooser {
     border-top: 1px dashed #fa6c22;
-    margin-top: 2rem;
-    padding-top: 2rem;
+    margin-top: 1em;
+    padding-top: 1em;
   }
 
   .chooser__subtitle {
-    font-size: 1.8rem;
+    font-size: 1.8em;
     margin: 0 0 1rem 0;
   }
 

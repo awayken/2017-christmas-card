@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <div :class="$store.state.readingLevel + 'reader'">
     <Navigation />
 
     <main class="main">
@@ -9,7 +9,7 @@
     </main>
 
     <Bottom />
-  </article>
+  </div>
 </template>
 
 <script>
