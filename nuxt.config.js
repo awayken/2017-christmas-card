@@ -1,4 +1,12 @@
+// Add routerBase for GH Pages deployment
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/2017-christmas-card/'
+  }
+} : {}
+
 module.exports = {
+  ...routerBase,
   css: [
     '~/assets/app.css'
   ],
