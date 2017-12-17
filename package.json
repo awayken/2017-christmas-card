@@ -7,8 +7,11 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "deploy": "npm run generate:gh-pages && push-dir --dir=dist --branch=gh-pages --cleanup",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
     "test": "ava"
@@ -41,6 +44,7 @@
     "jsdom": "^11.4.0",
     "postcss": "^6.0.14",
     "postcss-cssnext": "^3.0.2",
-    "postcss-import": "^11.0.0"
+    "postcss-import": "^11.0.0",
+    "push-dir": "^0.4.1"
   }
 }
