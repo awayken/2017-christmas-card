@@ -31,8 +31,23 @@ input {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0 0 1em 0;
+}
+
 main {
   padding: 2rem 0;
+}
+
+.oldreader {
+  font-size: 1rem;
+}
+
+.youngreader {
+  font-size: 1.5rem;
 }
 
 .container {
