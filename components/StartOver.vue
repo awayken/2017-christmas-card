@@ -4,7 +4,7 @@
       <p>You're tired, you're frustrated and you're ready for it to end.</p>
 
       <nav slot="choices" class="chooser__choices">
-        <a href="/" class="chooser__choice chooser__choice-target">Give Up and Start Over</a>
+        <a :href="$router.options.base" class="chooser__choice chooser__choice-target">Give Up and Start Over</a>
       </nav>
     </Chooser>
   </div>
