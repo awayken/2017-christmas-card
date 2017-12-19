@@ -18,14 +18,17 @@ module.exports = {
       { hid: 'description', name: 'description', content: '2017 Christmas Card' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Bungee' }
     ]
   },
   loading: { color: '#3B8070' },
   build: {
     postcss: [
       require('postcss-import')(),
-      require('postcss-cssnext')(),
+      require('postcss-cssnext')({
+        warnForDuplicates: false
+      }),
       require('cssnano')()
     ],
     extend (config, ctx) {
