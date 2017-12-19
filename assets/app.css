@@ -16,7 +16,7 @@ html,
 body {
   background: var(--color-space);
   color: var(--color-stars);
-  font: 1em/1.3 Helvetica, Arial, sans-serif;
+  font: 1em/1.3 system-ui;
   margin: 0;
 }
 
