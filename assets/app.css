@@ -6,6 +6,12 @@
   --color-secondary: #276f3f;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html,
 body {
   background: var(--color-space);
@@ -53,7 +59,12 @@ main {
 .container {
   margin: 0 auto;
   max-width: 30em;
+  padding: 0 .5em;
   width: 100%;
+}
+
+.container + .container {
+  margin-top: 2em;
 }
 
 .pulp {

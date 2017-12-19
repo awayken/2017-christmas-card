@@ -1,39 +1,70 @@
 <template>
-  <section class="container">
-    <h1 class="pulp">Escape <small>from the</small> Maze Planet</h1>
+  <div>
+    <section :class="['container', readerClass]">
+      <h1 class="pulp">Escape <small>from the</small> <span>Maze Planet</span></h1>
 
-    <p><span class="pulp">Welcome</span> to the 2017 Christmas Card!</p>
+      <story title="2017 Christmas Card">
+        <p>Images of the family.</p>
+        <p>The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story. Young or old, choose your own adventure with Kiddo &amp; Sweets. Learn more about our 2017 as you try to escape the maze planet, Skoor!</p>
 
-    <p>The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story. Young or old, choose your own adventure with Kiddo &amp; Sweets. Learn more about our 2017 as you try to escape the maze planet, Skoor!</p>
+        <Chooser title="Choose Your Reading Level">
+          <p>This adventure has two different reading levels: Young and Old. Choose your reading level below to start the story.</p>
 
-    <Chooser title="Choose Your Reading Level">
-      <p>You are the family pet, Fruckles (a half Shar Pei, half cheetah creature) that the Kiddo &amp; Sweets picked up on one of their many space adventures. Choosing the right reading level will make the story easier to follow.</p>
+          <div slot="choices" class="chooser__choices">
+            <button class="chooser__choice chooser__choice-target" @click.prevent="chooseReadingLevel('young')">
+                I am a Young Reader
+            </button>
+            <button class="chooser__choice chooser__choice-target" @click.prevent="chooseReadingLevel('old')">
+                I am an Old Reader
+            </button>
+          </div>
+        </Chooser>
+      </story>
 
-      <nav slot="choices" class="chooser__choices">
-        <nuxt-link to="/landing-on-skoor" class="chooser__choice">
-          <span @click="$store.commit('setReadingLevel', 'old')">
-            Old Fruckles
-            <span class="chooser__choice-target">Choose This One</span>
-          </span>
-        </nuxt-link>
-        <nuxt-link to="/landing-on-skoor" class="chooser__choice">
-          <span @click="$store.commit('setReadingLevel', 'young')">
-            Young Fruckles
-            <span class="chooser__choice-target">Choose This One</span>
-          </span>
-        </nuxt-link>
-      </nav>
-    </Chooser>
-  </section>
+      <story title="Hi, Fruckles!" v-if="readingLevelChosen">
+        <div v-if="$store.state.readingLevel === 'old'">
+          <p>Image of old Fruckles</p>
+          <p>You are the family pet, Fruckles, who Kiddo &amp; Sweets picked up on one of their many space adventures. Fruckles is half Shar Pei, half cheetah, full alien. Kiddo &amp; Sweets never have an adventure without you, and Escape from the Maze Planet is no exception. They rely on you to use your knowledge and wisdom to help them make decisions along the way. Are you up to the challenge?</p>
+        </div>
+        <div v-else-if="$store.state.readingLevel === 'young'">
+          <p>Image of young Fruckles</p>
+          <p>Your name is Fruckles. You are part dog and part cheetah. You are an alien pet. You help Kiddo and Sweets decide what to do.</p>
+        </div>
+
+        <Chooser>
+          <nav slot="choices" class="chooser__choices">
+            <nuxt-link to="/landing-on-skoor" class="chooser__choice chooser__choice-target">
+              Begin the Story
+            </nuxt-link>
+          </nav>
+        </Chooser>
+      </story>
+    </section>
+  </div>
 </template>
 
 <script>
   import Chooser from '~/components/Chooser.vue'
+  import Story from '~/components/Story.vue'
 
   export default {
     layout: 'home',
+    data: () => {
+      return {
+        readingLevelChosen: false,
+        readerClass: ''
+      }
+    },
+    methods: {
+      chooseReadingLevel (readingLevel) {
+        this.$store.commit('setReadingLevel', readingLevel)
+        this.readerClass = `${this.$store.state.readingLevel}reader`
+        this.readingLevelChosen = true
+      }
+    },
     components: {
-      Chooser
+      Chooser,
+      Story
     }
   }
 </script>
