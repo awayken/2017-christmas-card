@@ -3,11 +3,11 @@
     <section :class="['container', readerClass]">
       <h1 class="pulp">Escape <small>from the</small> <span>Maze Planet</span></h1>
 
-      <story title="2017 Christmas Card">
+      <story title="Merry Christmas">
         <p>Images of the family.</p>
         <p>The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story. Young or old, choose your own adventure with Kiddo &amp; Sweets. Learn more about our 2017 as you try to escape the maze planet, Skoor!</p>
 
-        <Chooser title="Choose Your Reading Level">
+        <Chooser title="Your Reading Level">
           <p>This adventure has two different reading levels: Young and Old. Choose your reading level below to start the story.</p>
 
           <div slot="choices" class="chooser__choices">
@@ -21,7 +21,7 @@
         </Chooser>
       </story>
 
-      <story title="Hi, Fruckles!" v-if="readingLevelChosen">
+      <story title="Hello, Fruckles" v-if="readingLevelChosen">
         <div v-if="$store.state.readingLevel === 'old'">
           <p>Image of old Fruckles</p>
           <p>You are the family pet, Fruckles, who Kiddo &amp; Sweets picked up on one of their many space adventures. Fruckles is half Shar Pei, half cheetah, full alien. Kiddo &amp; Sweets never have an adventure without you, and Escape from the Maze Planet is no exception. They rely on you to use your knowledge and wisdom to help them make decisions along the way. Are you up to the challenge?</p>
