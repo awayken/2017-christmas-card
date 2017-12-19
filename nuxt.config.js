@@ -25,7 +25,9 @@ module.exports = {
   build: {
     postcss: [
       require('postcss-import')(),
-      require('postcss-cssnext')(),
+      require('postcss-cssnext')({
+        warnForDuplicates: false
+      }),
       require('cssnano')()
     ],
     extend (config, ctx) {
