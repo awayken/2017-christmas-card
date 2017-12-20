@@ -1,5 +1,5 @@
 <template>
-  <button class="toggle" @click.prevent="$store.commit('setReadingLevel', otherLevel)">Switch to {{ otherLevelText }}</button>
+  <button class="toggle" :title="`Switch to ${otherLevelText}`" @click.prevent="$store.commit('setReadingLevel', otherLevel)">{{ otherLevelText }}</button>
 </template>
 
 <script>
@@ -20,5 +20,9 @@
   }
 </script>
 
-<style>
+<style scoped>
+  .toggle::after {
+    content: " \21bb";
+    display: inline;
+  }
 </style>
