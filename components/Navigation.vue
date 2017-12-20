@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div class="container">
-      <a href="#back" @click.prevent="goBack()" class="back">Back</a>
+      <button class="back" @click.prevent="goBack()">Back</button>
       <ReadingLevelToggle :currentLevel="$store.state.readingLevel" :readingLevels="$store.state.readingLevels" />
     </div>
   </nav>
@@ -26,7 +26,7 @@
 
 <style scoped>
   nav {
-    background: #276f3f;
+    background: rgba(39, 111, 63, 0.75);
     line-height: 1.5;
     padding: .5em 0;
   }
@@ -38,7 +38,7 @@
   }
 
   .back::before {
-    content: "< ";
+    content: "\2190 ";
     display: inline;
   }
 </style>
