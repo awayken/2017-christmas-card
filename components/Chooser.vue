@@ -18,7 +18,7 @@
 
 <style>
   .chooser {
-    border-top: 1px dashed #fa6c22;
+    border-top: .25em dotted #fa6c22;
     margin-top: 1em;
     padding-top: 1em;
   }
@@ -35,15 +35,18 @@
   }
 
   .chooser__choice {
+    align-items: center;
     background: #fefdce;
     box-shadow: 0 1px #fa6c22,
       -1px 2px #fa6c22,
       -2px 3px #fa6c22,
       -3px 4px #fa6c22;
     color: #0f0b0e;
+    display: flex;
     margin: 5px 5px 10px 5px;
     max-width: calc(50% - 10px);
     padding: .25em;
+    text-align: center;
     text-decoration: none;
   }
 
