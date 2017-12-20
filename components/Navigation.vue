@@ -26,7 +26,7 @@
 
 <style scoped>
   nav {
-    background: #276f3f;
+    background: rgba(39, 111, 63, 0.75);
     line-height: 1.5;
     padding: .5em 0;
   }
