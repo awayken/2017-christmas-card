@@ -1,22 +1,26 @@
 <template>
   <footer class="container">
-    <small>&copy; {{ year }} Miles &amp; Holli Rausch</small>
+    <p>&copy; {{ year }} Miles &amp; Holli Rausch</p>
+    <p>View the code on <a href="https://github.com/awayken/2017-christmas-card" target="_blank" rel="noopener">GitHub</a></p>
   </footer>
 </template>
 
 <script>
-export default {
-  data: () => {
-    return {
-      year: new Date().getFullYear()
+  export default {
+    data: () => {
+      return {
+        year: new Date().getFullYear()
+      }
     }
   }
-}
 </script>
 
-<style>
+<style scoped>
   footer {
+    font-size: .85em;
     margin-top: 2rem;
+    padding-bottom: .5em;
+    padding-top: .5em;
     text-align: center;
   }
 </style>
