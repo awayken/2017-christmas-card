@@ -3,8 +3,9 @@
     <section :class="['container', readerClass]">
       <h1 class="pulp">Escape <small>from the</small> <span>Maze Planet</span></h1>
 
-      <story title="Merry Christmas">
-        <p>Images of the family.</p>
+      <story title="Merry Christmas!">
+        <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/family.jpg"></figure>
+
         <p>The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story. Young or old, choose your own adventure with Kiddo &amp; Sweets. Learn more about our 2017 as you try to escape the maze planet, Skoor!</p>
 
         <Chooser title="Your Reading Level">
@@ -83,5 +84,9 @@
     text-align: center;
     vertical-align: middle;
     width: 3em;
+  }
+
+  .pulpbox {
+    max-height: 75vh;
   }
 </style>
