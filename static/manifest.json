@@ -3,12 +3,12 @@
     "short_name": "2017 Card",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
+            "src": "/2017-christmas-card/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-256x256.png",
+            "src": "/2017-christmas-card/android-chrome-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         }
@@ -16,5 +16,5 @@
     "theme_color": "#0f0b0e",
     "background_color": "#0f0b0e",
     "display": "standalone",
-    "start_url": "/"
+    "start_url": "/2017-christmas-card/"
 }
