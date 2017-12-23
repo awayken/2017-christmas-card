@@ -1,5 +1,5 @@
 <template>
-  <button class="toggle" :title="`Switch to ${otherLevelText}`" @click.prevent="$store.commit('setReadingLevel', otherLevel)">{{ otherLevelText }}</button>
+  <button class="toggle" :title="`Switch to ${otherLevelText}`" @click.prevent="$store.commit('setReadingLevel', otherLevel)">Switch Fruckles</button>
 </template>
 
 <script>
