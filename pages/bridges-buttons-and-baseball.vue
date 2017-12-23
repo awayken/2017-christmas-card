@@ -25,7 +25,7 @@
           <nuxt-link to="/heading-through" class="chooser__choice chooser__choice-target">
             Go to the Left
           </nuxt-link>
-          <nuxt-link to="/" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/heading-across" class="chooser__choice chooser__choice-target">
             Go to the Right
           </nuxt-link>
         </nav>
