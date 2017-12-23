@@ -22,7 +22,7 @@
 
       <Chooser title="Choose Your Path">
         <nav slot="choices" class="chooser__choices">
-          <nuxt-link to="/" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/heading-through" class="chooser__choice chooser__choice-target">
             Go to the Left
           </nuxt-link>
           <nuxt-link to="/" class="chooser__choice chooser__choice-target">
