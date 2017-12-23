@@ -33,11 +33,9 @@ button,
 input {
   appearance: none;
   background: none;
-  border: 1px solid currentColor;
-  border-radius: 0;
+  border: 0;
   font-size: 1em;
   padding: 3px 4px;
-  text-decoration: none;
 }
 
 h1,
