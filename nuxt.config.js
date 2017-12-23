@@ -1,4 +1,5 @@
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/2017-christmas-card/' : '/'
+const sharingURL = `https://awayken.github.io/2017-christmas-card/`
 const title = `2017 Christmas Card`
 const shortTitle = `2017 Card`
 const description = `The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story.Young or old, choose your own adventure with Kiddo & amp; Sweets.Learn more about our 2017 as you try to escape the maze planet, Skoor!`
@@ -19,10 +20,10 @@ module.exports = {
       { name: 'apple-mobile-web-app-title', content: `${shortTitle}` },
       { name: 'application-name', content: `${shortTitle}` },
       { name: 'theme-color', content: '#0f0b0e' },
-      { property: 'og:url', content: 'https://awayken.github.io/2017-christmas-card/' },
+      { property: 'og:url', content: `${sharingURL}` },
       { property: 'og:title', content: `${title}` },
       { property: 'og:description', content: `${description}` },
-      { property: 'og:image', content: `${routerBase}social-media.jpg` }
+      { property: 'og:image', content: `${sharingURL}social-media.jpg` }
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Bungee' },
