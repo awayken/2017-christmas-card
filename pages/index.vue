@@ -12,17 +12,17 @@
           <p>This adventure has two different reading levels: Young and Old. Choose your reading level below to start the story.</p>
 
           <div slot="choices" class="chooser__choices">
-            <button class="chooser__choice chooser__choice-target" @click.prevent="chooseReadingLevel('young')">
+            <a href="#hello" class="chooser__choice chooser__choice-target" @click="chooseReadingLevel('young')">
                 I am a Young Reader
-            </button>
-            <button class="chooser__choice chooser__choice-target" @click.prevent="chooseReadingLevel('old')">
+            </a>
+            <a href="#hello" class="chooser__choice chooser__choice-target" @click="chooseReadingLevel('old')">
                 I am an Old Reader
-            </button>
+            </a>
           </div>
         </Chooser>
       </story>
 
-      <story title="Hello, Fruckles" v-if="readingLevelChosen">
+      <story title="Hello, Fruckles" v-if="readingLevelChosen" id="hello">
         <div v-if="$store.state.readingLevel === 'old'">
           <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/old_fruckles.jpg"></figure>
           <p>You are the family pet, Fruckles, who Kiddo &amp; Sweets picked up on one of their many space adventures. Fruckles is half Shar Pei, half cheetah, full alien. Kiddo &amp; Sweets never have an adventure without you, and Escape from the Maze Planet is no exception. They rely on you to use your knowledge and wisdom to help them make decisions along the way. Are you up to the challenge?</p>
