@@ -2,20 +2,21 @@
 
 ## Ian
 
-  * Use baseball skills to solve a challenge
-  * Use reading or spelling to solve a challenge
+  [x] Use baseball skills to solve a challenge
+  [ ] Swimming lessons
+  [ ] Use reading or spelling to solve a challenge
 
   * Use swimming lessons?
   * Sledding
   * Likes playing sports (basketball, baseball, TKD)
-  * Swimming lessons
   * Going to the pool/swimming
   * Went to first grade (lots of reading and spelling)
 
 ## Ainsley
 
-  * Use swimming lessons
-  * Dance recital
+  [ ] Use swimming lessons
+  [ ] Dance recital
+  [ ] Use coloring skills
 
   * Use jumping house skills to solve a challenge?
   * Went to PK5
