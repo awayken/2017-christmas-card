@@ -1,5 +1,5 @@
 // Add routerBase for GH Pages deployment
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/2017-christmas-card' : ''
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/2017-christmas-card/' : '/'
 
 module.exports = {
   router: {
@@ -20,12 +20,12 @@ module.exports = {
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Bungee' },
-      { rel: 'icon', type: 'image/x-icon', href: `${routerBase}/favicon.ico` },
-      { rel: 'apple-touch-icon', sizes: '180x180', href: `${routerBase}/apple-touch-icon.png` },
-      { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${routerBase}/favicon-32x32.png` },
-      { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${routerBase}/favicon-16x16.png` },
-      { rel: 'manifest', href: `${routerBase}/manifest.json` },
-      { rel: 'mask-icon', href: `${routerBase}/safari-pinned-tab.svg`, color: '#0f0b0e' }
+      { rel: 'icon', type: 'image/x-icon', href: `${routerBase}favicon.ico` },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: `${routerBase}apple-touch-icon.png` },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${routerBase}favicon-32x32.png` },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${routerBase}favicon-16x16.png` },
+      { rel: 'manifest', href: `${routerBase}manifest.json` },
+      { rel: 'mask-icon', href: `${routerBase}safari-pinned-tab.svg`, color: '#0f0b0e' }
     ]
   },
   loading: { color: '#3B8070' },
