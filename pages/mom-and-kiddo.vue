@@ -30,7 +30,7 @@
           <nuxt-link to="/turn-around" class="chooser__choice chooser__choice-target">
             Turn Around
           </nuxt-link>
-          <nuxt-link to="/mom-and-kiddo-bridge" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/bridges-buttons-and-baseball" class="chooser__choice chooser__choice-target">
             Cross the Bridge
           </nuxt-link>
         </nav>
