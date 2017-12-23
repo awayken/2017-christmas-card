@@ -22,7 +22,7 @@
 
 <style scoped>
   .toggle::after {
-    content: " \21bb";
+    content: " \2194";
     display: inline;
   }
 </style>
