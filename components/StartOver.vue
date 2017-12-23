@@ -1,10 +1,12 @@
 <template>
   <div class="container">
-    <Chooser title="Lost?">
-      <p>You're tired, you're frustrated and you're ready to give up.</p>
+    <Chooser title="Give Up?">
+      <p>You're tired, you're frustrated and you're ready to go home.</p>
 
       <nav slot="choices" class="chooser__choices">
-        <a :href="$router.options.base" class="chooser__choice chooser__choice-target">Start Over</a>
+        <nuxt-link to="/turn-around" class="chooser__choice chooser__choice-target">
+            Turn Around
+          </nuxt-link>
       </nav>
     </Chooser>
   </div>
