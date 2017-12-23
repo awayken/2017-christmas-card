@@ -37,6 +37,7 @@
   .chooser__choice {
     align-items: center;
     background: #fefdce;
+    border-radius: .25em;
     box-shadow: 0 1px #fa6c22,
       -1px 2px #fa6c22,
       -2px 3px #fa6c22,
