@@ -27,7 +27,7 @@
         <p v-if="$store.state.readingLevel === 'old'">Sweets turns to you. "What do you think Fruckles?"</p>
 
         <nav slot="choices" class="chooser__choices">
-          <nuxt-link to="/dad-and-sweets-turn-around" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/turn-around" class="chooser__choice chooser__choice-target">
             Turn Around
           </nuxt-link>
           <nuxt-link to="/cross-the-river" class="chooser__choice chooser__choice-target">

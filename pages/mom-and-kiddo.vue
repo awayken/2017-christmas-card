@@ -27,7 +27,7 @@
         <p v-if="$store.state.readingLevel === 'old'">Mom and Kiddo both look at you, Fruckles. Which path will you choose?</p>
 
         <nav slot="choices" class="chooser__choices">
-          <nuxt-link to="/mom-and-kiddo-turn-around" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/turn-around" class="chooser__choice chooser__choice-target">
             Turn Around
           </nuxt-link>
           <nuxt-link to="/mom-and-kiddo-bridge" class="chooser__choice chooser__choice-target">

@@ -1,7 +1,9 @@
 <template>
   <nav>
     <div class="container">
-      <button class="back" @click.prevent="goBack()">Back</button>
+      <button class="back" @click.prevent="goHome()" v-if="homeButton">Home</button>
+      <button class="back" @click.prevent="goBack()" v-else>Back</button>
+
       <ReadingLevelToggle :currentLevel="$store.state.readingLevel" :readingLevels="$store.state.readingLevels" />
     </div>
   </nav>
@@ -11,11 +13,15 @@
   import ReadingLevelToggle from '~/components/ReadingLevelToggle.vue'
 
   export default {
+    props: ['homeButton'],
     methods: {
       goBack () {
         window.history.length > 1
           ? this.$router.go(-1)
-          : this.$router.push('/')
+          : this.goHome()
+      },
+      goHome () {
+        this.$router.push('/')
       }
     },
     components: {
