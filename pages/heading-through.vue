@@ -21,7 +21,7 @@
 
       <Chooser title="Choose Your Path">
         <nav slot="choices" class="chooser__choices">
-          <nuxt-link to="/" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/a-duck-in-the-forest" class="chooser__choice chooser__choice-target">
             Through the Forest
           </nuxt-link>
           <nuxt-link to="/math-mountain" class="chooser__choice chooser__choice-target">
