@@ -1,8 +1,8 @@
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/2017-christmas-card/' : '/'
 const sharingURL = `https://awayken.github.io/2017-christmas-card/`
-const title = `2017 Christmas Card`
-const shortTitle = `2017 Card`
-const description = `The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story.Young or old, choose your own adventure with Kiddo & amp; Sweets.Learn more about our 2017 as you try to escape the maze planet, Skoor!`
+const title = `2017 Rausch Family Christmas Card`
+const shortTitle = `2017 CCard`
+const description = `The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story. Young or old, choose your own adventure with Kiddo & Sweets. Learn more about our 2017 as you try to escape the maze planet, Skoor!`
 
 module.exports = {
   router: {
