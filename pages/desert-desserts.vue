@@ -20,10 +20,10 @@
 
       <Chooser title="Choose Your Path">
         <nav slot="choices" class="chooser__choices">
-          <nuxt-link to="/" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/green-horse" class="chooser__choice chooser__choice-target">
             Ride the Green Horse
           </nuxt-link>
-          <nuxt-link to="/" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/letters-where-your-mouth-is" class="chooser__choice chooser__choice-target">
             Ride the Green Bison
           </nuxt-link>
         </nav>
