@@ -24,7 +24,7 @@
           <nuxt-link to="/math-mountain" class="chooser__choice chooser__choice-target">
             Around the Mountain
           </nuxt-link>
-          <nuxt-link to="/" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/spell-you-later" class="chooser__choice chooser__choice-target">
             Through the Forest
           </nuxt-link>
         </nav>
