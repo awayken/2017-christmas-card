@@ -19,7 +19,7 @@
 
       <Chooser title="Choose Your Path">
         <nav slot="choices" class="chooser__choices">
-          <nuxt-link to="/desert-please" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/desert-desserts" class="chooser__choice chooser__choice-target">
             Go to the Left
           </nuxt-link>
           <nuxt-link to="/ice-ice-baby" class="chooser__choice chooser__choice-target">
