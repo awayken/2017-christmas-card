@@ -4,10 +4,13 @@
 
   [x] Use baseball skills to solve a challenge - 1
   [x] Swimming lessons - 2
-  [ ] Use reading or spelling to solve a challenge - 3
+  [ ] Use reading or spelling or math to solve a challenge - 3
+    [ ] Reading - sees a sign in the forest that says which way to go. Maybe separated from mom and Fruckles, and Kiddo tells you what you see on the sign.
+    [x] Math - Need a ballast to send off the basket so Kiddo helps Fruckles count the number of rocks needed to start the basket.
+    [ ] Spelling -
 
 ## Ainsley
 
   [ ] Dance recital - 1
   [ ] Use swimming lessons - 2
-  [ ] Use letter and number and name recognizing skills - 3
+  [ ] Use letter and number and name recognizing skills - 2

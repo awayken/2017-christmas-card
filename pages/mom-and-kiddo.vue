@@ -17,7 +17,7 @@
       <div v-else>
         <p>You choose Mom and Kiddo. Kiddo gives you a big hug.</p>
         <p>"We're going to have a great adventure, Fruckles!" says Kiddo.</p>
-        <p>You and Mom and Kiddo walk on the path. At first, there are high walls around you and lots of trees. Then the wall and trees get lower and lower.</p>
+        <p>You and Mom and Kiddo walk on the path. At first, there are high walls around you and lots of trees. Then the walls and trees get smaller and smaller.</p>
         <p>You can see a wide, open space and the big, green sky. It is pretty.</p>
         <p>You run ahead to help lead the way. You find a big cliff. Kiddo finds a scary-looking bridge.</p>
         <p>Mom wants to go back. Kiddo wants to go on the bridge. What do you want to do?</p>

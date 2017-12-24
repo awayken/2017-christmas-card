@@ -15,16 +15,16 @@
       <div v-else>
         <p>You take the path to the left. The path is very dark. You can see in the dark. You lead the way.</p>
         <p>You hear the sound of water. Kiddo hears it, too. There is a waterfall at the end of the path.</p>
-        <p>Kiddo had swimming lessons this year. Kiddo is not afraid to walk under the water. You and Mom walk under the water, too.</p>
+        <p>Kiddo had swimming lessons this year. Kiddo is not afraid to walk under the water. Good job, Kiddo! You and Mom walk under the water, too.</p>
         <p>After the waterfall there are two paths. One path goes into a forest. One path goes around the mountain.</p>
       </div>
 
       <Chooser title="Choose Your Path">
         <nav slot="choices" class="chooser__choices">
-          <nuxt-link to="/" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/a-duck-in-the-forest" class="chooser__choice chooser__choice-target">
             Through the Forest
           </nuxt-link>
-          <nuxt-link to="/" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/math-mountain" class="chooser__choice chooser__choice-target">
             Around the Mountain
           </nuxt-link>
         </nav>
