@@ -1,7 +1,7 @@
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/2017-christmas-card/' : '/'
 const sharingURL = `https://awayken.github.io/2017-christmas-card/`
 const title = `ESCAPE from the MAZE PLANET`
-const shortTitle = `2017 CCard`
+const shortTitle = `ESCAPE`
 const description = `The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story. Young or old, choose your own adventure with Kiddo & Sweets. Learn more about our 2017 as you try to escape the maze planet, Skoor!`
 
 module.exports = {
@@ -24,7 +24,7 @@ module.exports = {
       { property: 'og:title', content: `${title}` },
       { property: 'og:description', content: `${description}` },
       { property: 'og:image', content: `${sharingURL}social-media.jpg` },
-      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@awayken' }
     ],
     link: [
