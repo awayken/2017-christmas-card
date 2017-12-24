@@ -1,5 +1,8 @@
-// Add routerBase for GH Pages deployment
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/2017-christmas-card' : ''
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/2017-christmas-card/' : '/'
+const sharingURL = `https://awayken.github.io/2017-christmas-card/`
+const title = `ESCAPE from the MAZE PLANET`
+const shortTitle = `K&S ESCAPE`
+const description = `The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story. Young or old, choose your own adventure with Kiddo & Sweets. Learn more about our 2017 as you try to escape the maze planet, Skoor!`
 
 module.exports = {
   router: {
@@ -9,26 +12,32 @@ module.exports = {
     '~/assets/app.css'
   ],
   head: {
-    title: '2017 Christmas Card',
+    title: `${title}`,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '2017 Christmas Card' },
-      { name: 'apple-mobile-web-app-title', content: '2017 Card' },
-      { name: 'application-name', content: '2017 Card' },
-      { name: 'theme-color', content: '#0f0b0e' }
+      { hid: 'description', name: 'description', content: `${description}` },
+      { name: 'apple-mobile-web-app-title', content: `${shortTitle}` },
+      { name: 'application-name', content: `${shortTitle}` },
+      { name: 'theme-color', content: '#0f0b0e' },
+      { property: 'og:url', content: `${sharingURL}` },
+      { property: 'og:title', content: `${title}` },
+      { property: 'og:description', content: `${description}` },
+      { property: 'og:image', content: `${sharingURL}social-media.jpg` },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@awayken' }
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Bungee' },
-      { rel: 'icon', type: 'image/x-icon', href: `${routerBase}/favicon.ico` },
-      { rel: 'apple-touch-icon', sizes: '180x180', href: `${routerBase}/apple-touch-icon.png` },
-      { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${routerBase}/favicon-32x32.png` },
-      { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${routerBase}/favicon-16x16.png` },
-      { rel: 'manifest', href: `${routerBase}/manifest.json` },
-      { rel: 'mask-icon', href: `${routerBase}/safari-pinned-tab.svg`, color: '#0f0b0e' }
+      { rel: 'icon', type: 'image/x-icon', href: `${routerBase}favicon.ico` },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: `${routerBase}apple-touch-icon.png` },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${routerBase}favicon-32x32.png` },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${routerBase}favicon-16x16.png` },
+      { rel: 'manifest', href: `${routerBase}manifest.json` },
+      { rel: 'mask-icon', href: `${routerBase}safari-pinned-tab.svg`, color: '#0f0b0e' }
     ]
   },
-  loading: { color: '#3B8070' },
+  loading: { color: '#0f0b0e' },
   build: {
     postcss: [
       require('postcss-import')(),
