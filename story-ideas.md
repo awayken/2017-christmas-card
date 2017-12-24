@@ -11,6 +11,6 @@
 
 ## Ainsley
 
-  [ ] Dance recital - 1
+  [x] Dance recital - 1
   [ ] Use swimming lessons - 2
   [ ] Use letter and number and name recognizing skills - 2
