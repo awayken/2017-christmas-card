@@ -17,7 +17,7 @@
         <p>Kiddo and Sweets are space explorers. They visit new planets with Mom and Dad. They love to explore.</p>
         <p>They are going to visit The Maze Planet. It is called Skoor. It looks like a big ball wrapped with green ribbons.</p>
         <p>The people who live on the Maze Planet say that Kiddo and Sweets have won a prize. They get to explore the giant maze.</p>
-        <p>Dad and Kiddo and Sweets are excited to go to the Maze Planet. Mom is not.</p>
+        <p>Dad and Kiddo and Sweets are excited to go to The Maze Planet. Mom is not.</p>
       </div>
 
       <Chooser title="Choose a Path">

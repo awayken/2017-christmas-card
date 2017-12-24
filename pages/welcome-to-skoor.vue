@@ -13,7 +13,7 @@
       </div>
       <div v-else>
         <p>President Skoor welcomes everyone to the planet called Skoor. He says that Kiddo and Sweets will have a great adventure.</p>
-        <p>The ground rumbles and shakes. President Skoor grabs you. Really tall walls come out of the ground. Kiddo and Sweets are now in a giant maze. The walls separated them.</p>
+        <p>The ground rumbles and shakes. President Skoor grabs you. Really tall walls come out of the ground. Kiddo and Sweets are now in a giant maze. The walls separate them.</p>
         <p>President Skoor tells you to choose who to follow. Will you go with Kiddo or Sweets?</p>
       </div>
 

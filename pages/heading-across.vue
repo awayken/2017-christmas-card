@@ -15,13 +15,13 @@
       <div v-else>
         <p>You take the path to the right. It is bright. You can hear and smell water.</p>
         <p>There is a big river in the cave. You have to go across the river.</p>
-        <p>Kiddo had swimming lessons this year. Kiddo is not afraid to swim through the water. You and Mom swim across the water, too.</p>
+        <p>Kiddo had swimming lessons this year. Kiddo is not afraid to swim through the water. Good job, Kiddo! You and Mom swim across the water, too.</p>
         <p>After the river, there are two paths. One path goes around the mountain. One path goes into a forest.</p>
       </div>
 
       <Chooser title="Choose Your Path">
         <nav slot="choices" class="chooser__choices">
-          <nuxt-link to="/" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/math-mountain" class="chooser__choice chooser__choice-target">
             Around the Mountain
           </nuxt-link>
           <nuxt-link to="/" class="chooser__choice chooser__choice-target">
