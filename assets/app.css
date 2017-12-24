@@ -33,11 +33,9 @@ button,
 input {
   appearance: none;
   background: none;
-  border: 1px solid currentColor;
-  border-radius: 0;
+  border: 0;
   font-size: 1em;
   padding: 3px 4px;
-  text-decoration: none;
 }
 
 h1,
@@ -94,6 +92,7 @@ main {
 
 .pulpbox {
   border: .25em solid var(--color-primary);
+  border-radius: .25em;
   box-shadow: 0 1px var(--color-accent),
     -1px 2px var(--color-accent),
     -2px 3px var(--color-accent),

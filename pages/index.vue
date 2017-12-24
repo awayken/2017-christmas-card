@@ -1,6 +1,8 @@
 <template>
   <div>
     <section :class="['container', readerClass]">
+      <img class="logo" src="~/assets/kiddo-and-sweets-logo.png" alt="Kiddo &amp; Sweets">
+
       <h1 class="pulp">Escape <small>from the</small> <span>Maze Planet</span></h1>
 
       <story title="Merry Christmas!">
@@ -23,12 +25,12 @@
       </story>
 
       <story title="Hello, Fruckles" v-if="readingLevelChosen" id="hello">
+        <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/fruckles.jpg" alt="An image of Fruckles, an alien that appears to be half Shar Pei and half cheetah."></figure>
+
         <div v-if="$store.state.readingLevel === 'old'">
-          <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/old_fruckles.jpg"></figure>
           <p>You are the family pet, Fruckles, who Kiddo &amp; Sweets picked up on one of their many space adventures. Fruckles is half Shar Pei, half cheetah, full alien. Kiddo &amp; Sweets never have an adventure without you, and Escape from the Maze Planet is no exception. They rely on you to use your knowledge and wisdom to help them make decisions along the way. Are you up to the challenge?</p>
         </div>
         <div v-else-if="$store.state.readingLevel === 'young'">
-          <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/young_fruckles.jpg"></figure>
           <p>Your name is Fruckles. You are part dog and part cheetah. You are an alien pet. You help Kiddo and Sweets decide what to do.</p>
         </div>
 
@@ -84,6 +86,12 @@
     text-align: center;
     vertical-align: middle;
     width: 3em;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto 1em auto;
+    max-height: 30vh;
   }
 
   .pulpbox {
