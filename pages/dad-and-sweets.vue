@@ -12,7 +12,8 @@
         <p>"I'll see how deep it is," Dad says. He gets down on all fours on the shore and reaches a hand into the current. "Hmm... Seems pretty-"</p>
         <p>Dad slips off the shore and into the water. He is gone but just for a moment. Then he bobs back up and scrambles onto land.</p>
         <p>"Okay. Way too deep. We should head back. I thought this would be fun, but we can really get hurt out here."</p>
-        <p>"No, Dad! We can win! We just need to keep going!" says Sweets. "There must be a way across."</p>
+        <p>"What about that?" Sweets asks. She points to a thin ledge of stone with spikes coming out of it. "We can win, Dad! We just need to keep going!" says Sweets. "We can cross over there!"</p>
+        <p>Sweets turns to you. "What do you think Fruckles?" It looks sharp and dangerous to you, but you really want to win the grand prize. What do you choose?</p>
       </div>
       <div v-else>
         <p>You choose Dad and Sweets. Sweets gives you a big hug.</p>
@@ -24,13 +25,11 @@
       </div>
 
       <Chooser title="Choose Your Path">
-        <p v-if="$store.state.readingLevel === 'old'">Sweets turns to you. "What do you think Fruckles?"</p>
-
         <nav slot="choices" class="chooser__choices">
           <nuxt-link to="/turn-around" class="chooser__choice chooser__choice-target">
             Turn Around
           </nuxt-link>
-          <nuxt-link to="/cross-the-river" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/hop-skip-and-jump" class="chooser__choice chooser__choice-target">
             Cross the River
           </nuxt-link>
         </nav>
