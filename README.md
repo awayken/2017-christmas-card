@@ -1,6 +1,6 @@
-# 2017-christmas-card
+# ESCAPE from the MAZE PLANET
 
-> 2017 Christmas Card
+> The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story. Young or old, choose your own adventure with Kiddo & Sweets. Learn more about our 2017 as you try to escape the maze planet, Skoor!
 
 ## Build Setup
 
@@ -17,6 +17,7 @@ $ npm start
 
 # generate static project
 $ npm run generate
-```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+# deploy static project to GitHub pages
+$ npm run deploy
+```
