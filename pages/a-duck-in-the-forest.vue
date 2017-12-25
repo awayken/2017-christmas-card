@@ -2,9 +2,9 @@
   <section class="container">
     <story title="A Duck in the Forest">
       <div v-if="$store.state.readingLevel === 'old'">
-        <p>As you enter the forest, the trees tower high above you, forming a thick canopy that blots out the sky. The calls and cries of strange animals fills the air around you but soon another sound begins to filter in.</p>
-        <p>"What's that sound?" Kiddo asks. It sounds like birds flapping to you. Lots of birds.</p>
-        <p>Down the path, heading right towards you, come a thick flock of dazzling and beautiful tropical birds. They fill the path, flying fast and furious. Mom and Kiddo scramble off the path to get out of their way. You close your eyes and duck. You can feel the breeze kicked up by the birds as they brush barely over your spotted fur. When the last bird is past, you open your eyes. Mom and Kiddo are nowhere to be seen.</p>
+        <p>As you enter the forest, the trees tower high above you, forming a thick canopy that blots out the sky. The calls and cries of strange animals fill the air around you but soon another sound begins to filter in.</p>
+        <p>"What's that sound?" Kiddo asks. It sounds like birds flapping towards you. Lots of birds.</p>
+        <p>Down the path, heading right towards you, fly a thick flock of dazzling and beautiful tropical birds. They fill the path, flying fast and furious. Mom and Kiddo scramble off the path to get out of their way. You close your eyes and duck. You can feel the breeze kicked up by the birds as they brush barely over your spotted fur. When the last bird is past, you open your eyes. Mom and Kiddo are nowhere to be seen.</p>
         <p>You chirp and spin around, but you don't see them anywhere. "Fruckles! Where are you?" Kiddo calls out. You chirp and coo at him. "I can hear you Fruckles! You have to take the right path to find us!"</p>
         <p>You run down the path, thinking they got ahead of you. Not far ahead, though, the path splits in two. A wooden sign stands at the fork in the road, with arrows directing the traveler one way or the other.</p>
         <p>"Fruckles, you need to take the path to the finish line," Kiddo tells you. "It says "Finish" on it. I learned how to read and spell a lot of words in First Grade this year. Finish is spelled: F-I-N-I-S-H. Do you see that word on the sign, Fruckles?"</p>
