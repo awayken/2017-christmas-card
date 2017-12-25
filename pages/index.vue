@@ -8,7 +8,7 @@
       <story title="Merry Christmas!">
         <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/family.jpg"></figure>
 
-        <p>The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story. Young or old, choose your own adventure with Kiddo &amp; Sweets. Learn more about our 2017 as you try to escape the maze planet, Skoor!</p>
+        <p>The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story. Young or old, choose your own adventure with Kiddo &amp; Sweets. Learn more about our 2017 as you try to escape the Maze Planet, Skoor!</p>
 
         <Chooser title="Your Reading Level">
           <p>This adventure has two different reading levels: Young and Old. Choose your reading level below to start the story.</p>

@@ -4,7 +4,7 @@
       <div v-if="$store.state.readingLevel === 'old'">
         <p>The bridge doesn't look so scary and narrow, so you march bravely to it. Kiddo trots alongside you, but you both pause when you reach the first step. The bridge is made of a smooth stone, like jade, and it's not much wider than your whole body.</p>
         <p>"Um, you first," Kiddo says.</p>
-        <p>You take some careful steps onto the walkway. It feels solid and not too slippery, and you before you know it all three of you are making good progress across the bridge.</p>
+        <p>You take some careful steps onto the walkway. It feels solid and not too slippery, and before you know it all three of you are making good progress across the bridge.</p>
         <p>At the far end of the bridge, you can see a cliff face and chiseled into it is a doorway. You pick up the pace, and Kiddo follows closely behind. When you get to the door, Kiddo bangs on it, and you can both hear an echo on the other side.</p>
         <p>"I wonder how we get through," Mom says. She looks around for a key or a handle.</p>
         <p>"Hey, what's that?" Kiddo points to a spot above the door. It's a small stone button standing out of rock. It has an "X" on it.</p>

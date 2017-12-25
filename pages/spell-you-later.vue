@@ -2,7 +2,7 @@
   <section class="container">
     <story title="Spell You Later">
       <div v-if="$store.state.readingLevel === 'old'">
-        <p>As you enter the forest, the trees tower high above you, forming a thick canopy that blots out the sky. The calls and cries of strange animals fills the air around you but soon another sound begins to filter in.</p>
+        <p>As you enter the forest, the trees tower high above you, forming a thick canopy that blots out the sky. The calls and cries of strange animals fill the air around you but soon another sound begins to filter in.</p>
         <p>"What's that sound?" Kiddo asks. It sounds like hooting and swooping. A green ape swings in from the right on a vine, scoops mom up and disappears.</p>
         <p>"Hey!" Mom shouts, but the ape is gone again, into the forest, before you or Kiddo can stop her. Two more apes swing in on vines and drop to the group right in front of you. They hold up a hand to stop you.</p>
         <p>"Halt, alien travelers! We are the Ape Brigade. You are nearing the end of the maze, and we are here to make sure you are worthy of the grand prize. You must answer our challenge without a grown-up's help."</p>

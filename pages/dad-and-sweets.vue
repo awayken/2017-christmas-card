@@ -5,7 +5,7 @@
         <p>You look back and forth between your two best friends: Kiddo and Sweets. It's a monstrous choice you're faced with, but you can hear President Skoor begin to mutter about leaving you on the ship, so you have to act. You leap from the stone platform and land next to Dad and Sweets. Sweets runs over and gives you a hug.</p>
         <p>"We're going to have a great adventure, Fruckles!"</p>
         <p>"It looks like we have only one option," Dad says, pointing down the path. "We'll have to go into the forest."</p>
-        <p>You and Dad and Sweets began a slow journey into the forest growing up around you. The path you're on gradually pulls to your left, moving the three of you further and further from the rocky division. The trees tower high above you, forming a thick canopy that blots out the sky. The calls and cries of strange animals fills the air around you but soon another sound begins to filter in.</p>
+        <p>You and Dad and Sweets began a slow journey into the forest growing up around you. The path you're on gradually pulls to your left, moving the three of you further and further from the rocky division. The trees tower high above you, forming a thick canopy that blots out the sky. The calls and cries of strange animals fill the air around you but soon another sound begins to filter in.</p>
         <p>"What's that sound?" Sweets asks.</p>
         <p>"I hear water!" Dad says. "We must be near a stream."</p>
         <p>The sound grows louder and clearer and soon you find yourselves on the banks of a huge river. The water is as green as the leaves are, and the water flows slowly.</p>
