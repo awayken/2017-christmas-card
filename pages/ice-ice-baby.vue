@@ -22,7 +22,7 @@
           <nuxt-link to="/letters-where-your-mouth-is" class="chooser__choice chooser__choice-target">
             Ride the Green Bison
           </nuxt-link>
-          <nuxt-link to="/giant-green-eagle" class="chooser__choice chooser__choice-target">
+          <nuxt-link to="/siding-and-sliding" class="chooser__choice chooser__choice-target">
             Ride the Giant Green Eagle
           </nuxt-link>
         </nav>

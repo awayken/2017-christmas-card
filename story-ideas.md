@@ -13,4 +13,7 @@
 
   [x] Dance recital - 1
   [x] Use swimming lessons - 2
-  [ ] Use letter and number and name recognizing skills - 2
+  [ ] Use letter and number and name recognizing skills - 3
+    [x] Letter shapes
+    [x] Geometric shapes
+    [ ] Number shapes
