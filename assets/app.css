@@ -95,6 +95,7 @@ nav + main {
 }
 
 .pulpbox {
+  background: var(--color-space);
   border: .25em solid var(--color-primary);
   border-radius: .25em;
   box-shadow: 0 1px var(--color-accent),
@@ -110,4 +111,8 @@ nav + main {
   display: inline-block;
   filter: grayscale(70%);
   width: 100%;
+}
+
+.pulpbox--content {
+  padding: .25em;
 }

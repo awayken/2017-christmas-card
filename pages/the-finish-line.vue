@@ -25,6 +25,8 @@
         <p>Everyone gets on the space ship. You fly away from the planet. It looks like a green marble in space. You are happy that you escaped from the Maze Planet with your family. Good job, Fruckles!</p>
       </div>
 
+      <RauschStats />
+
       <Chooser title="...Or Is It?">
         <p>Not ready to leave? You can start over and choose different paths for a new adventure on the Maze Planet.</p>
 
@@ -40,12 +42,14 @@
 
 <script>
   import Story from '~/components/Story.vue'
+  import RauschStats from '~/components/RauschStats.vue'
   import Chooser from '~/components/Chooser.vue'
 
   export default {
     layout: 'deadend',
     components: {
       Story,
+      RauschStats,
       Chooser
     }
   }
