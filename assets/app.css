@@ -57,6 +57,10 @@ main {
   padding: 1em 0;
 }
 
+nav + main {
+  margin-top: 2.5em;
+}
+
 .oldreader {
   font-size: 1rem;
 }
@@ -91,6 +95,7 @@ main {
 }
 
 .pulpbox {
+  background: var(--color-space);
   border: .25em solid var(--color-primary);
   border-radius: .25em;
   box-shadow: 0 1px var(--color-accent),
@@ -106,4 +111,8 @@ main {
   display: inline-block;
   filter: grayscale(70%);
   width: 100%;
+}
+
+.pulpbox--content {
+  padding: .25em;
 }
