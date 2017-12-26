@@ -2,7 +2,7 @@
   <section class="container">
     <story title="Desert Desserts">
       <div v-if="$store.state.readingLevel === 'old'">
-        <p>You like the idea of being warm better than the idea of being cold, so you trot off to the left. The forest trees disappear and soon you're slinking into yellow sands of a desert. A clear path cuts through tall, billowing sand dunes on all sides of you. The sun is high and bright, and it makes you start to sweat. You start looking around for some relief.</p>
+        <p>You like the idea of being warm better than the idea of being cold, so you trot off to the left. The forest trees disappear and soon you're slinking into the yellow sands of a desert. A clear path cuts through tall, billowing sand dunes on all sides of you. The sun is high and bright, and it makes you start to sweat. You start looking around for some relief.</p>
         <p>"Look! Water!" Sweets shouts. You and Dad and Sweets all see a sparkling pond lined with green grass and dotted with palm trees. You run over and lap at the water. It is cool and refreshing on your parched tongue. Dad and Sweets scoop great cupped handfuls of water into their mouths.</p>
         <p>"I could really go for some coconuts," Dad says. "But these trees all look pretty bare."</p>
         <p>"I see some down there," says Sweets. She points into the pond. Dad wades into the water, which is chest-high. He tries to catch the coconut with his feet, but he can't seem to get his aim right.</p>
