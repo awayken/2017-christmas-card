@@ -13,18 +13,22 @@
         <p>He says that you are not very brave. You feel bad because you gave up instead of trying your best.</p>
         <p>Everyone is on the space ship. They are sad that they have to leave. They are sad that they didn't win any prizes.</p>
       </div>
+
+      <RauschStats />
     </story>
   </section>
 </template>
 
 <script>
   import Story from '~/components/Story.vue'
+  import RauschStats from '~/components/RauschStats.vue'
   import Chooser from '~/components/Chooser.vue'
 
   export default {
     layout: 'deadend',
     components: {
       Story,
+      RauschStats,
       Chooser
     }
   }

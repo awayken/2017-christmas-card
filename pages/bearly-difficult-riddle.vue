@@ -12,7 +12,7 @@
       </div>
       <div v-else>
         <p>You get on the green horse. The green horse takes you out of the desert. Now the ground has grass and rocks on it.</p>
-        <p>You see metal gates that are blocking the end. The horse knocks you off. The horses is scared of a bear. The bear has a spear.</p>
+        <p>You see metal gates that are blocking the end. The horse knocks you off. The horse is scared of a bear. The bear has a spear.</p>
         <p>The bear wants Sweets to answer his question. He wants her to draw the number five. She uses his spear to draw a five. Good job, Sweets!</p>
         <p>The bear opens the gates so you can leave. You are almost done with the maze!</p>
       </div>

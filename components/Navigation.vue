@@ -33,8 +33,12 @@
 <style scoped>
   nav {
     background: rgba(39, 111, 63, 0.75);
+    left: 0;
     line-height: 1.5;
     padding: .5em 0;
+    position: fixed;
+    right: 0;
+    top: 0;
   }
 
   .container {

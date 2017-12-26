@@ -1,7 +1,10 @@
 <template>
   <footer class="container">
     <p>&copy; {{ year }} Miles &amp; Holli Rausch</p>
-    <p>View the code on <a href="https://github.com/awayken/2017-christmas-card" target="_blank" rel="noopener">GitHub</a></p>
+    <p>
+      View the code on <a href="https://github.com/awayken/2017-christmas-card" target="_blank" rel="noopener">GitHub</a>.
+      Read more by Miles on <a href="https://miles.ink" target="_blank" rel="noopener">miles.ink</a>.
+    </p>
   </footer>
 </template>
 

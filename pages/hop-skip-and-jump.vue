@@ -3,8 +3,8 @@
     <story title="Hop, Skip and Jump">
       <div v-if="$store.state.readingLevel === 'old'">
         <p>You follow Sweets to the spike-lined ledge. It looks a little wider than you thought, but the spikes look taller and sharper. You look at Sweets, and you can see that she's trying to figure out how to make it across.</p>
-        <p>"How are we doing to get across?" Dad asks. "There are parts that we can walk along and parts we have to jump over."</p>
-        <p>"I know!" says Sweets. "When I took Dance lessons this year, I learned how to skip. Skipping is the perfect way to jump over the spikes."</p>
+        <p>"How are we going to get across?" Dad asks. "There are parts that we can walk along and parts we have to jump over."</p>
+        <p>"I know!" says Sweets. "When I took dance lessons this year, I learned how to skip. Skipping is the perfect way to jump over the spikes."</p>
         <p>"Sounds contrived," says Dad, "but we have literally no other options. I guess I'll let a little girl skip across this dangerous ledge."</p>
         <p>You hop onto the ledge to lead the way. Sweets is right. Skipping is the perfect way to run across the ledge without getting stabbed by the spikes. In no time, all three of you are on the far shore of the river. Good job, Sweets!</p>
         <p>"Great plan, Sweets," Dad says. "We made it across without getting spiked. Now we have to decide where to go next."</p>
