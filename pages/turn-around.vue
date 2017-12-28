@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <story title="Turn Around!">
+      <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/turn-around.jpg"></figure>
       <div v-if="$store.state.readingLevel === 'old'">
         <p>You don't wait for a second opinion. You immediately turn tail and make back the way you came. You don't even wait to see if anyone else is following you. You make it back to the start of the maze and find President Skoor asleep on his pedestal. You let out a ferocious roar and stir him from his slumber.</p>
         <p>"Why, you're back already? Oh, I know that look. That is the look of cowardice. I knew this maze was only fit for humanoids."</p>

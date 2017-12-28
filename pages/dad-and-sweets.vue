@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <story title="Dad and Sweets">
+      <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/sweets-and-dad.jpg"></figure>
       <div v-if="$store.state.readingLevel === 'old'">
         <p>You look back and forth between your two best friends: Kiddo and Sweets. It's a monstrous choice you're faced with, but you can hear President Skoor begin to mutter about leaving you on the ship, so you have to act. You leap from the stone platform and land next to Dad and Sweets. Sweets runs over and gives you a hug.</p>
         <p>"We're going to have a great adventure, Fruckles!"</p>

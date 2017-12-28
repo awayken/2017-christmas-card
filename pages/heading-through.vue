@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <story title="Heading Through">
+      <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/kiddo-age.jpg"></figure>
       <div v-if="$store.state.readingLevel === 'old'">
         <p>You take the path to the left. It heads down, and the darkness gets thicker and thicker. Thankfully, you can see in almost complete darkness. When it gets too dark for him to see, Kiddo puts his hand on your back. Mom puts her hand on his shoulder, and you lead everyone through the cave. At first, the cave is so quiet that all you can hear are your own feet. But another sound starts to pick up.</p>
         <p>"Do you hear that?" Kiddo asks.</p>

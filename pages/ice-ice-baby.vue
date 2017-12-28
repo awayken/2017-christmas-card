@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <story title="Ice, Ice, Baby">
+      <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/sweets-age.jpg"></figure>
       <div v-if="$store.state.readingLevel === 'old'">
         <p>You like the idea of cooling off instead of overheating, so you trot off to the right. The forest trees disappear and soon you're trudging through crisp, white snow. A clear path cuts through tall, billowing snow drifts on all sides of you. The sun is high and bright, but it doesn't do anything to warm you up. You start looking around for some warmth.</p>
         <p>"Look! Steamy water!" Sweets shouts. You see a bubbling sauna of green water just a couple feet from the path. You bound through the snow and splash right into the pond. It thaws your chilly paws, and Dad and Sweets dive in, too. The water feels great.</p>

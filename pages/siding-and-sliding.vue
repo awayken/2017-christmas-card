@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <story title="Siding and Sliding">
+      <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/sweets-grade.jpg"></figure>
       <div v-if="$store.state.readingLevel === 'old'">
         <p>You bound across the snow and leap onto the giant green eagle's back. Dad and Sweets are close behind. The eagle flaps its mighty wings and lifts off the ground. It flies straight up and above the clouds. The wind is fierce and cold, and below is a floor of dark grey clouds. The eagle banks to the left, and you see why. Ahead of you is the jagged, brown top of an ancient tree poking a hole through the cloud cover.</p>
         <p>The eagle lands on one of the branches. It shimmies, and the three of you fall out of the saddle and onto another one of the branches. Then the eagle flies away.</p>

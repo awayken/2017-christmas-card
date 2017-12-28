@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <story title="Hop, Skip and Jump">
+      <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/sweets-dance.jpg"></figure>
       <div v-if="$store.state.readingLevel === 'old'">
         <p>You follow Sweets to the spike-lined ledge. It looks a little wider than you thought, but the spikes look taller and sharper. You look at Sweets, and you can see that she's trying to figure out how to make it across.</p>
         <p>"How are we going to get across?" Dad asks. "There are parts that we can walk along and parts we have to jump over."</p>

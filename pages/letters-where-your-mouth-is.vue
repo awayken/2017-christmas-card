@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <story title="Put Your Letters Where Your Mouth Is">
+      <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/sweets-grade.jpg"></figure>
       <div v-if="$store.state.readingLevel === 'old'">
         <p>You and Dad and Sweets climb onto the bison. You snuggle between Dad and Sweets, and the bison gallops away. The green bison moves swiftly, and the landscape becomes a blur around you. When it stops, you find yourself on a grassy plain. The temperature is much more comfortable, and you close your eyes and take a light rest.</p>
         <p>You awaken with a start when the bison stops suddenly. All three of you are thrown forward and into the tall, waving grass. The bison snorts at you, then it turns and gallops away. You shake the dust off your fur and look around. The grass is so tall that you have to jump to see over it.</p>

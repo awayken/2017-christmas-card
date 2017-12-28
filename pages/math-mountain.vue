@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <story title="Math Mountain">
+      <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/kiddo-grade.jpg"></figure>
       <div v-if="$store.state.readingLevel === 'old'">
         <p>The path around the mountain is steep and harrowing. A chilly wind whips around you as you edge along the precipice. Kiddo and Mom are close behind and look no more comfortable. The path corkscrews up the mountain, and when you look up, you notice that there is less and less mountain above you. It seems like you're heading for the peak, but before you reach the zenith, you come to a rocky platform strewn about with large rocks.</p>
         <p>On the platform is a large basket, big enough for you and Mom and Kiddo to climb comfortably into. The basket is attached to a strong cable that is mounted into the mountain on one end. The other end arcs down into the forest and disappears into the canopy.</p>

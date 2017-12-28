@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <story title="Heading Across">
+      <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/kiddo-age.jpg"></figure>
       <div v-if="$store.state.readingLevel === 'old'">
         <p>You take the path to the right. It heads up and light echos and bounces off the walls and ceiling of the path, although you can't tell where the light is coming from. There is a breeze coming at you from the front, and you can smell the salty spray it carries along.</p>
         <p>"We must be near the ocean," Mom says.</p>
