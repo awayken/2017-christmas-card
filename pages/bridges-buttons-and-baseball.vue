@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <story title="Bridges, Buttons and Baseball">
+      <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/kiddo-baseball.jpg"></figure>
       <div v-if="$store.state.readingLevel === 'old'">
         <p>The bridge doesn't look so scary and narrow, so you march bravely to it. Kiddo trots alongside you, but you both pause when you reach the first step. The bridge is made of a smooth stone, like jade, and it's not much wider than your whole body.</p>
         <p>"Um, you first," Kiddo says.</p>

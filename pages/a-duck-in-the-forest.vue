@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <story title="A Duck in the Forest">
+      <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/kiddo-grade.jpg"></figure>
       <div v-if="$store.state.readingLevel === 'old'">
         <p>As you enter the forest, the trees tower high above you, forming a thick canopy that blots out the sky. The calls and cries of strange animals fill the air around you but soon another sound begins to filter in.</p>
         <p>"What's that sound?" Kiddo asks. It sounds like birds flapping towards you. Lots of birds.</p>

@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <story title="A Bearly Difficult Riddle">
+      <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/sweets-grade.jpg"></figure>
       <div v-if="$store.state.readingLevel === 'old'">
         <p>You clamor across the burning sands to the gallant green horse. It neighs majestically and gallops across the dunes. The sand gives way to grassy knolls and hills and bursts of rock. The steed leaps gracefully over the rocks with increasing speed.</p>
         <p>Ahead, you can see great metal gates. Beyond the gates you see crowds of people waiting for your arrival. Your heart thrills at the prospect of being done with the maze. Suddenly, the horse stops galloping. It rears back, and you and Dad and Sweets fall out of the saddle. You land on the soft grass and watch the horse turn and race back the way you'd just come.</p>

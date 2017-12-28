@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <story title="The Finish Line">
+      <figure class="pulpbox"><img class="pulpbox--image" src="~/assets/the-finish-line.jpg"></figure>
       <div v-if="$store.state.readingLevel === 'old'">
         <p>You're too excited to wait. You race ahead and dive through the green ribbon. It breaks, and the crowd erupts in cheers. You look around, and the whole family is together again: Mom, Dad, Kiddo and Sweets. You all look tired and elated to be finally done with the Maze Planet.</p>
         <p>"Congratulations!" shouts President Skoor. "You are truly a remarkable family to make it all out, and alive no less!"</p>
