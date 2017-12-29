@@ -31,6 +31,9 @@ module.exports = {
       }
     ]
   },
+  workbox: {
+    globPatterns: ['**/*.{js,css,png,jpg,ico,xml,svg}']
+  },
   css: [
     '~/assets/app.css'
   ],
