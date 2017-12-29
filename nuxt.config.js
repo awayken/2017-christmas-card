@@ -17,6 +17,7 @@ module.exports = {
     short_name: shortTitle,
     description: description,
     background_color: appColor,
+    start_url: routerBase,
     icons: [
       {
         src: `${routerBase}android-chrome-192x192.png`,
