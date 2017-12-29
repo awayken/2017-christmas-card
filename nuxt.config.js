@@ -3,10 +3,36 @@ const sharingURL = `https://awayken.github.io/2017-christmas-card/`
 const title = `ESCAPE from the MAZE PLANET`
 const shortTitle = `K&S ESCAPE`
 const description = `The Miles Rausch Family has completed another stellar year, and we're celebrating it with this text adventure story. Young or old, choose your own adventure with Kiddo & Sweets. Learn more about our 2017 as you try to escape the maze planet, Skoor!`
+const appColor = `#0f0b0e`
 
 module.exports = {
   router: {
     base: routerBase
+  },
+  modules: [
+    ['@nuxtjs/pwa', { icon: false }]
+  ],
+  manifest: {
+    name: title,
+    short_name: shortTitle,
+    description: description,
+    background_color: appColor,
+    start_url: routerBase,
+    icons: [
+      {
+        src: `${routerBase}android-chrome-192x192.png`,
+        sizes: '192x192',
+        type: 'image/png'
+      },
+      {
+        src: `${routerBase}android-chrome-256x256.png`,
+        sizes: '256x256',
+        type: 'image/png'
+      }
+    ]
+  },
+  workbox: {
+    globPatterns: ['**/*.{js,css,png,jpg,ico,xml,svg}']
   },
   css: [
     '~/assets/app.css'
@@ -19,7 +45,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: `${description}` },
       { name: 'apple-mobile-web-app-title', content: `${shortTitle}` },
       { name: 'application-name', content: `${shortTitle}` },
-      { name: 'theme-color', content: '#0f0b0e' },
+      { name: 'theme-color', content: `${appColor}` },
+      { property: 'og:type', content: 'website' },
       { property: 'og:url', content: `${sharingURL}` },
       { property: 'og:title', content: `${title}` },
       { property: 'og:description', content: `${description}` },
@@ -33,11 +60,10 @@ module.exports = {
       { rel: 'apple-touch-icon', sizes: '180x180', href: `${routerBase}apple-touch-icon.png` },
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${routerBase}favicon-32x32.png` },
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${routerBase}favicon-16x16.png` },
-      { rel: 'manifest', href: `${routerBase}manifest.json` },
-      { rel: 'mask-icon', href: `${routerBase}safari-pinned-tab.svg`, color: '#0f0b0e' }
+      { rel: 'mask-icon', href: `${routerBase}safari-pinned-tab.svg`, color: `${appColor}` }
     ]
   },
-  loading: { color: '#0f0b0e' },
+  loading: { color: `${appColor}` },
   build: {
     postcss: [
       require('postcss-import')(),
