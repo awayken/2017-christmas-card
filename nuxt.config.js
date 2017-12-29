@@ -46,6 +46,7 @@ module.exports = {
       { name: 'apple-mobile-web-app-title', content: `${shortTitle}` },
       { name: 'application-name', content: `${shortTitle}` },
       { name: 'theme-color', content: `${appColor}` },
+      { property: 'og:type', content: 'website' },
       { property: 'og:url', content: `${sharingURL}` },
       { property: 'og:title', content: `${title}` },
       { property: 'og:description', content: `${description}` },
